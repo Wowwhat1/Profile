@@ -20,13 +20,14 @@ h1 {
 
 h2 {
     text-align: center;
+
 }
 
 p {
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.5px;
-    margin: 20px 0 30px;
+    margin: 20px 0 20px;
 }
 
 span {
@@ -64,6 +65,10 @@ button:focus {
 button.devingine {
     background-color: transparent;
     border-color: #fff;
+}
+
+.button-1 {
+    margin-bottom: 20px;
 }
 
 form {
@@ -107,6 +112,7 @@ input:focus-visible {
     top: 0;
     height: 100%;
     transition: all 0.6s ease-in-out;
+    background: black;
 }
 
 .sing-in-container {
@@ -198,6 +204,10 @@ input:focus-visible {
     transform: translateX(-20%);
 }
 
+.overlay-left h2 {
+    margin-bottom: 0;
+}
+
 .container.right-panel-active .overlay-left {
     transform: translateX(0);
 }
@@ -205,6 +215,29 @@ input:focus-visible {
 .overlay-right {
     right: 0;
     transform: translateX(0);
+}
+
+video {
+    height: 100%;
+    margin: 0 58.5px;
+}
+
+.box {
+    position: absolute;
+    height: 100%;
+    margin: 0px 57px;
+}
+
+.box-1 p {
+    background-image: url("/asset/img/z3191752808140_a4f7d6eba340542a8e33736db98b5102.jpg");
+}
+
+.box-2 {
+    background-image: url("/asset/img/Screenshot 2022-02-18 130636.png");
+}
+
+.box-3 {
+    background-image: url("/asset/img/z3191752808859_03e1b4e655f2435ea30a1ffc8e557f01.jpg"); 
 }
 
 .container.right-panel-active .overlay-right {
@@ -224,6 +257,21 @@ input:focus-visible {
     margin: 0 5px;
     height: 40px;
     width: 40px;
+}
+
+.social-container .social-1 {
+    background-image: url("/asset/img/z3191752808140_a4f7d6eba340542a8e33736db98b5102.jpg");
+    background-size: 100%;
+}
+
+.social-container .social-2 {
+    background-image: url(/asset/img/Screenshot\ 2022-02-18\ 130636.png);
+    background-size: 100%;
+}
+
+.social-container .social-3 {
+    background-image: url("/asset/img/z3191752808859_03e1b4e655f2435ea30a1ffc8e557f01.jpg");
+    background-size: 100%;
 }
 
 a.social:hover {
